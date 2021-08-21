@@ -7,6 +7,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <title>Translator App</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -20,11 +21,17 @@
 
         <textarea id="txt-input"></textarea>
         <div class="container">
-          <button class="btn" id="btn-1">PIG LATIN</button>
+          <button class="btn" id="btn-1">Minion Translate</button>
         </div>
         <div style="height: 20px"></div>
-        <h1>In pig-Latin Language it would look like this 👇</h1>
-        <div id="output"></div>
+        <h1>Minions will say it like this 👇</h1>
+        <div class="group-output">
+          <p id="occur-on-translation">
+            <img src="https://media.giphy.com/media/MJQJow1uUbNDy/giphy.gif" alt="gif_FAIL" />
+          </p>
+          <div id="output"></div>
+        </div>
+        
       </div>
       <div style="height: 30px"></div>
 
